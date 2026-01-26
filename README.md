@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏕️ The Wild Oasis – Guest Website
 
-## Getting Started
+This is the guest-facing website for **The Wild Oasis Hotel** — a modern, responsive platform that allows users to browse, learn about, and reserve cabins in a seamless and user-friendly way.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 About the Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The Wild Oasis Guest Website is designed for **potential and actual guests**. It provides a full-featured UI that enables visitors to:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Learn about the hotel and its offerings
+- Browse available cabins
+- Make reservations for specific dates
+- Manage their personal profiles and bookings
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Currently built with **Next.js** and **Supabase**, this platform ensures smooth user experience and strong authentication. In future updates, the backend will be powered by **Express.js** and **MongoDB** for better scalability and data handling.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🧑‍💼 **Guest Roles**: Supports both browsing guests and registered guests with profiles.
+- 🏡 **Cabin Info**: View detailed information about each cabin, including images, features, and availability.
+- 🔎 **Cabin Filtering**: Filter cabins by maximum guest capacity.
+- 📅 **Reservation System**:
+  - Guests can reserve a cabin for a selected date range.
+  - Reservations are marked as **unconfirmed** (not yet paid or checked in).
+  - Payments are handled **on-site**, not online.
+- 🗃️ **Booking Management**:
+  - View all past and future reservations.
+  - Update or cancel existing reservations.
+- 🔐 **Authentication**:
+  - Sign-up and login via **NextAuth**.
+  - Each guest gets a unique profile on registration.
+- 👤 **Profile Management**:
+  - Guests can set and update their profile info.
+  - Speeds up check-in at the hotel.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Built With
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🧩 Frontend
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.js](https://nextjs.org/)
+- [NextAuth.js](https://next-auth.js.org/)
+- [Context API](https://reactjs.org/docs/context.html)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Supabase](https://supabase.com/)
+
+### 🧪 Future Backend Stack
+
+- [Express.js](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+
+---
+
+## 🚧 Future Plans
+
+- 🔁 Migrate backend from Supabase to **Express.js + MongoDB**
+- 💳 Integrate optional **online payments**
+- 📱 Improve mobile responsiveness and PWA support
+- 🌐 Add support for multiple languages and international guests
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/andrew0samir/wild-oasis-client.git
+   cd the-wild-oasis-client
+   ```
