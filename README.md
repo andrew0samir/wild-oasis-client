@@ -57,10 +57,10 @@ Currently built with **Next.js** and **Supabase**, this platform ensures smooth 
 
 ## 🚧 Future Plans
 
-- 🔁 Migrate backend from Supabase to **Express.js + MongoDB**
-- 💳 Integrate optional **online payments**
-- 📱 Improve mobile responsiveness and PWA support
-- 🌐 Add support for multiple languages and international guests
+- 🔁 Migrate backend from Supabase to **Express.js + MongoDB**.
+- 💳 Integrate optional **online payments**.
+- 📱 Improve mobile responsiveness and PWA support.
+- 🌐 Add support for multiple languages and international guests.
 
 ---
 
